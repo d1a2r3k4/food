@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"> 
+    <link rel="stylesheet" href="food.css">
+</head>
+<body>
+   
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./foodimg/Mask Group.png"><img src="./foodimg/Frame 36.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul id="uli1" class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="#" id="space"><button id="click" onclick="getLocation()">მიწოდება:</button> <i id="cols" class="bi bi-geo-alt"></i></a>
+          </li> 
+           <ul id="uli">
+         <a class="nav-link" id="aa" href="#"> <button id="no" type="submit"><i id="co" class="bi bi-search"> </i></button><input type="search"id="search" placeholder="მოძებნე"> <label for="search"></label></a> 
+        <button id="last" type="button" class="btn btn-light"><span><i class="bi bi-person-fill"></i>შესვლა</span></button> 
+         <!-- <button class="last"> <p><i class="bi bi-person-fill"></i>Login</p></button>  -->
+        </ul>
+        </ul>
+      
+      </div>
+    </div>
+  </nav>
+
+      <header>
+
+        <div class="container ">
+            <div class="col" id="textss">
+              
+              <h1>მშიერი ხარ?</h1>
+              <p>მხოლოდ რამდენიმე დაწკაპებით,აღმოაჩინე საჭმელი სახლთან ახლოს</p>
+            <div id="grow" class="card">
+              <div class="bikes">
+                <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                  <button type="button" class="btn btn-danger"><img id="bt" src="./foodimg/Icon.png">მიწოდება</button>
+                  <button type="button" id="bts" class="btn btn-success"><i id="dd" class="bi bi-bag-fill"></i>აღება</button>
+                </div>
+              </div>
+              <!-- inputis -->
+              <div id="ss" class="row g-3">
+                <div id="cc" class="col">
+                  <i id="adre" class="bi bi-geo-alt-fill"></i>
+                  <input id="sss"  type="text" class="form-control" placeholder="შეიყვანეთ მისამართი" aria-label="First name">
+                  <button id="ssss" type="submit" class="btn btn-danger "><i class="bi bi-search"></i>იპოვე საკვები</button>
+                </div>
+                <div class="col">
+                 
+                </div>
+              </div>
+            </div>
+               
+            </div>
+             
+            <div class="col" id="imgs">
+              
+                     <img id="lafsha" src="./foodimg/Image Base.png" alt="">
+                    
+               
+            </div>
+        </div> 
+
+
+      </header>
+
+
+<div class="rowi">
+  <div class="coli">
+    <div class="cardi">
+      <img src="./foodimg/1.png" alt="">
+      <img class="dis" src="./foodimg/Discount.png"> 
+      <div class="marg">
+        <p>Grays Vage</p>
+        <div class="days"><p id="demo">დარჩენილია 6 დღე</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="coli">
+    <di class="cardi">
+      <img src="./foodimg/2.png" alt="">
+      <img class="dis" src="./foodimg/Discount (1).png">
+      <div class="marg">
+      <p>Grays Vage</p>
+      <div class="days"><p id="demo">დარჩენილია 6 დღე</p></div></div>
+    </di>
+  </div>
+
+  <div class="coli">
+    <div class="cardi">
+      <img src="./foodimg/3.png" alt="">
+      <img class="dis" src="./foodimg/Discount (2).png">
+      <div class="marg">
+      <p>Grays Vage</p>
+      <div class="days"><p id="demo"> დარჩენილია 6 დღე</p></div></div>
+    </div>
+  </div>
+  <div class="coli">
+    <div class="cardi">
+      <img src="./foodimg/4.png" alt="">
+      <img class="dis" src="./foodimg/Discount (3).png">
+      <div class="marg">
+      <p>Grays Vage</p>
+      <div class="days"><p id="demo">დარჩენილია 6 დღე</p></div></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="worki">
+<div class="work">
+  <div class="te">
+  <h2>როგორ მუშაობს</h2>
+  
+  </div>
+
+  <div class="rowii">
+    <div class="coli">
+      <div class="cardi">
+        <img class="place" src="./foodimg/place.png" alt="">
+       <div class="center"> <span>აირჩიეთ ადგილმდებარეობა</span>
+        <p>აირიეთ მისამართი სადაც შეკვეთას მიიღებ</p></div>
+    </div>
+      </div>
+    
+  
+
+    <div class="coli">
+      <div class="cardi">
+        <img class="place" src="./foodimg/place 2.png" alt="">
+        <div class="center">
+        <span>აირჩიე შეკვეთა</span>
+        <p>შეამოწმე ასობით მენიუ რათა აირჩიო შენი საყვარელი საკვები</p></div>
+       
+      </div>
+    </div>
+  
+ 
+    <div class="coli">
+      <div class="cardi">
+        <img class="place" src="./foodimg/place3.png" alt="">
+        <div class="center">
+       <span>გადაიხადე წინასწარ</span>
+       <p>ეს სწრაფი,მარტივი და უსაფრთხოა.აირჩიე გადახდის რამდენიმე მეთოდი</p></div>
+      </div>
+    </div>
+  
+  
+    <div class="coli">
+      <div class="cardi">
+        <img class="place" src="./foodimg/place 4.png" alt="">
+        <div class="center">
+       <span>ისიამოვნე საკვებით</span>
+       <P>საკვები მზადდება და მიწოდება ხდება ზუსტად შენს მისამართზე</P></div>
+      </div>
+    </div>
+  
+
+</div>
+</div>
+
+
+
+
+
+
+<!-- karusel -->
+<div class="popu">
+<div class="popular">
+  <div class="te">
+    <h2>პოპულარული</h2>
+  </div>
+
+
+<div  class="rowii">
+
+  <div id="coli" class="coli">
+    <div class="cardi">
+      <img id="ff" src="./foodimg/Rectangle 336.png">
+      <div id="left">
+        <P>Cheese Burger</P>
+        <span><i class="bi bi-geo-alt-fill"></i> Burger Arena</span><br>
+        <small>$3.88</small>
+      </div>
+      <button id="gg" type="button"><span>შეუკვეთე ახლავე</span></button>
+    </div>
+  </div>
+
+  <div  class="coli">
+    <div class="cardi">
+      <img src="./foodimg/Rectangle 336 (2).png">
+      <div id="left">
+        <P>Toffe's Cake</P>
+        <span><i class="bi bi-geo-alt-fill"></i> Top Sticks</span><br>
+        <small>$4.00</small>
+      </div>
+      <button id="gg" type="button"><span>შეუკვეთე ახლავე</span></button>
+
+    </div>
+  </div>
+
+  <div class="coli">
+    <div class="cardi">
+      <img src="./foodimg/Rectangle 336 (3).png">
+      <div id="left">
+        <P>Dancake</P>
+        <span><i class="bi bi-geo-alt-fill"></i> Cake World</span><br>
+        <small>$1.99</small>
+      </div>
+      <button id="gg" type="button"><span>შეუკვეთე ახლავე</span></button>
+
+    </div>
+  </div>
+
+  <div  class="coli">
+    <div class="cardi">
+      <img src="./foodimg/Rectangle 336 (4).png">
+      <div id="left">
+        <P>Crispy Sandwitch</P>
+        <span><i class="bi bi-geo-alt-fill"></i> Fastfood Dine</span><br>
+        <small>$3.00</small>
+      </div>
+      <button id="gg" type="button"><span>შეუკვეთე ახლავე</span></button>
+    </div>
+  </div>
+
+
+  <div class="coli">
+    <div class="cardi">
+      <img src="./foodimg/Rectangle 336 (5).png">
+      <div id="left">
+        <P>Thai Soup</P>
+        <span><i class="bi bi-geo-alt-fill"></i> Foody man</span><br>
+        <small>$2.79</small>
+      </div>
+      <button id="gg" type="button"><span>შეუკვეთე ახლავე</span></button>
+    </div>
+  </div>
+
+ 
+</div>
+</div>
+
+
+
+
+<div id="pop" class="featured">
+  <div class="te">
+    <h2>გამორჩეული რესტორნები</h2>
+  </div>
+
+  <div id="ffl"  class="all">
+
+    <div id="fl" class="al">
+    <div class="car">
+      <img id="asi" src="./foodimg/featured/Image.png" alt="">
+      <div class="fast">
+        <small><i class="bi bi-tag-fill"></i>20% off</small>
+        <button><span><i class="bi bi-clock-fill"></i>სწრაფად</span></button>
+      </div>
+      <div id="blue" class="row">
+        <div id="size" class="col-md-6">
+          <img src="./foodimg/featured/Restaruant Logo.png"></img>
+        
+        </div>
+        <div id="red" class="col-md-6">
+          <p>Foodworld</p> 
+           <span><i class="bi bi-star-fill"></i>46</span>
+        </div>
+        <span id="opens">იხსნება ხვალ</span>
+       
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div id="fl" class="al">
+    <div class="car">
+      <img id="asi" src="./foodimg/featured/Image (1).png" alt="">
+      <div class="fast">
+        <small><i class="bi bi-tag-fill"></i>15% off</small>
+        <button><span><i class="bi bi-clock-fill"></i>სწრაფად</span></button>
+      </div>
+      <div id="blue" class="row">
+        <div id="size" class="col-md-6">
+          <img src="./foodimg/featured/Restaruant Logo (1).png"></img>
+        </div>
+        <div id="red" class="col-md-6">
+          <p>Pizzahub</p> 
+          <span><i class="bi bi-star-fill"></i>40</span>
+        </div>
+        <span id="opens">იხსნება ხვალ</span>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="fl"  class="al">
+    <div class="car">
+      <img id="asi" src="./foodimg/featured/Image (2).png" alt="">
+      <div class="fast">
+        <small><i class="bi bi-tag-fill"></i>10% off</small>
+        <button><span><i class="bi bi-clock-fill"></i>სწრაფად</span></button>
+      </div>
+      <div id="blue" class="row">
+        <div id="size" class="col-md-6">
+          <img src="./foodimg/featured/Restaruant Logo (2).png"></img>
+        </div>
+        <div id="red" class="col-md-6">
+          <p>Donuts hut</p> 
+          <span><i class="bi bi-star-fill"></i>20</span>
+        </div>
+        <span id="ope">იხსნება ახლა</span>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div id="fl"  class="al">
+    <div class="car">
+      <img id="asi" src="./foodimg/featured/Image (3).png" alt="">
+      <div class="fast">
+        <small><i class="bi bi-tag-fill"></i>15% off</small>
+        <button><span><i class="bi bi-clock-fill"></i>სწრაფად</span></button>
+      </div>
+      <div id="blue" class="row">
+        <div id="size" class="col-md-6">
+          <img src="./foodimg/featured/Restaruant Logo (3).png"></img>
+        </div>
+        <div id="red" class="col-md-6">
+          <p>Donuts hut</p> 
+            <span><i class="bi bi-star-fill"></i>50</span>
+        </div>
+        <span id="ope">იხსნება ახლა</span>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div  id="fl" class="al">
+    <div class="car">
+      <img id="asi" src="./foodimg/featured/Image (4).png" alt="">
+      <div class="fast">
+        <small><i class="bi bi-tag-fill"></i>10% off</small>
+        <button><span><i class="bi bi-clock-fill"></i>სწრაფად</span></button>
+      </div>
+      <div id="blue" class="row">
+        <div id="size" class="col-md-6">
+          <img src="./foodimg/featured/Restaruant Logo (4).png"></img>
+        </div>
+        <div id="red" class="col-md-6">
+          <p>Ruby Tuesday</p>  
+          <span><i class="bi bi-star-fill"></i>26</span>
+        </div>
+        <span id="ope">იხსნება ახლა</span>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div id="fl"  class="al">
+    <div class="car">
+      <img id="asi" src="./foodimg/featured/Image (5).png" alt="">
+      <div class="fast">
+        <small><i class="bi bi-tag-fill"></i>25% off</small>
+        <button><span><i class="bi bi-clock-fill"></i>სწრაფად</span></button>
+      </div>
+      <div id="blue" class="row">
+        <div id="size" class="col-md-6">
+          <img src="./foodimg/featured/Restaruant Logo (5).png"></img>
+        </div>
+        <div id="red" class="col-md-6">
+          <p>Kuakata Chicken</p> 
+          <span><i class="bi bi-star-fill"></i>53</span>
+        </div>
+        <span id="ope">იხსნება ახლა</span>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div id="fl" class="al">
+    <div class="car">
+      <img id="asi" src="./foodimg/featured/Image (6).png" alt="">
+      <div class="fast">
+        <small><i class="bi bi-tag-fill"></i>10% off</small>
+        <button><span><i class="bi bi-clock-fill"></i>სწრაფად</span></button>
+      </div>
+      <div id="blue" class="row">
+        <div id="size" class="col-md-6">
+          <img src="./foodimg/featured/Restaruant Logo (6).png"></img>
+        </div>
+        <div id="red" class="col-md-6">
+          <p>Red Square</p> 
+           <span><i class="bi bi-star-fill"></i>45</span>
+        </div>
+        <span id="ope">იხსნება ახლა</span>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div id="fl"  class="al">
+    <div class="car">
+      <img id="asi" src="./foodimg/featured/Image (7).png" alt="">
+      <div class="fast">
+        <small><i class="bi bi-tag-fill"></i>10% off</small>
+        <button><span><i class="bi bi-clock-fill"></i>სწრაფად</span></button>
+      </div>
+      <div id="blue" class="row">
+        <div id="size" class="col-md-6">
+          <img src="./foodimg/featured/Restaruant Logo (7).png"></img>
+        </div>
+        <div id="red" class="col-md-6">
+          <p>Foodworld</p> 
+          <span><i class="bi bi-star-fill"></i>35</span>
+        </div>
+        <span id="ope">იხსნება ახლა</span>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<div id="bolo">
+<button id="vievall" class="mx-auto">იხილეთ ყველა<i class="bi bi-chevron-compact-right"></i></button>
+</div>
+
+
+
+</div>
+
+
+
+<!-- mrgvali divebi -->
+
+<div class="mrgvali">
+
+  <div class="mrgvali1">
+    <div class="mr">
+      <h2>მოძებნე</h2>
+      <ul>
+        <button id="view">ყველას ნახვა<i class="bi bi-chevron-compact-right"></i></button>
+        <!-- <button id="same"><i class="bi bi-chevron-compact-left"></i></button>
+        <button class="sam" id="same"><i class="bi bi-chevron-compact-right"></i></button> -->
+        <svg  width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_dd_401_1756)">
+          <rect x="32" y="18" width="76" height="76" rx="38" fill="#FFB30E"/>
+          <rect x="32.5" y="18.5" width="75" height="75" rx="37.5" stroke="#FAAA01"/>
+          <path d="M60.8789 54.5938C60.2988 55.1738 60.2988 56.1406 60.8789 56.7207L73.3828 69.2891C74.0273 69.8691 74.9941 69.8691 75.5742 69.2891L77.0566 67.8066C77.6367 67.2266 77.6367 66.2598 77.0566 65.6152L67.1309 55.625L77.0566 45.6992C77.6367 45.0547 77.6367 44.0879 77.0566 43.5078L75.5742 42.0254C74.9941 41.4453 74.0273 41.4453 73.3828 42.0254L60.8789 54.5938Z" fill="white"/>
+          </g>
+          <defs>
+          <filter id="filter0_dd_401_1756" x="0" y="0" width="140" height="140" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+          <feOffset dy="14"/>
+          <feGaussianBlur stdDeviation="16"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.698039 0 0 0 0 0.054902 0 0 0 0.29 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_401_1756"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+          <feOffset dy="5"/>
+          <feGaussianBlur stdDeviation="4"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0.870833 0 0 0 0 0.5926 0 0 0 0 0 0 0 0 0.24 0"/>
+          <feBlend mode="normal" in2="effect1_dropShadow_401_1756" result="effect2_dropShadow_401_1756"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_401_1756" result="shape"/>
+          </filter>
+          </defs>
+          </svg>
+
+
+
+
+          <svg id="pxx"  width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_dd_401_1758)">
+            <rect x="32" y="18" width="76" height="76" rx="38" fill="#FFB30E"/>
+            <rect x="32.5" y="18.5" width="75" height="75" rx="37.5" stroke="#FAAA01"/>
+            <path d="M79.0566 56.7207C79.6367 56.1406 79.6367 55.1738 79.0566 54.5938L66.5527 42.0254C65.9082 41.4453 64.9414 41.4453 64.3613 42.0254L62.8789 43.5078C62.2988 44.0879 62.2988 45.0547 62.8789 45.6992L72.8047 55.625L62.8789 65.6152C62.2988 66.2598 62.2988 67.2266 62.8789 67.8066L64.3613 69.2891C64.9414 69.8691 65.9082 69.8691 66.5527 69.2891L79.0566 56.7207Z" fill="white"/>
+            </g>
+            <defs>
+            <filter id="filter0_dd_401_1758" x="0" y="0" width="140" height="140" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="14"/>
+            <feGaussianBlur stdDeviation="16"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.698039 0 0 0 0 0.054902 0 0 0 0.29 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_401_1758"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="5"/>
+            <feGaussianBlur stdDeviation="4"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0.870833 0 0 0 0 0.5926 0 0 0 0 0 0 0 0 0.24 0"/>
+            <feBlend mode="normal" in2="effect1_dropShadow_401_1758" result="effect2_dropShadow_401_1758"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_401_1758" result="shape"/>
+            </filter>
+            </defs>
+            </svg>
+            
+          
+      </ul>
+    </div>
+           
+    <div class="row">
+      <div id="ian" class="col">
+        <div class="card">
+          <img src="./foodimg/pizza.png" alt="">
+          <a href="pizza">Pizza</a>
+        </div>
+      </div>
+
+      <div id="ian" class="col">
+        <div class="card">
+          <img src="./foodimg/pizza 2.png" alt="">
+          <a href="pizza">Burger</a>
+        </div>
+      </div>
+
+      <div id="ian" class="col">
+        <div class="card">
+          <img src="./foodimg/pizza 3.png" alt="">
+          <a href="pizza">Noodles</a>
+        </div>
+      </div>
+
+      <div id="ian " class="col">
+        <div class="card">
+          <img src="./foodimg/pizza 4.png" alt="">
+          <a href="pizza">Sub-sandiwch</a>
+        </div>
+      </div>
+
+      <div id="ian" class="col">
+        <div class="card">
+          <img src="./foodimg/pizza 6.png" alt="">
+          <a href="pizza">Chowmein</a>
+        </div>
+      </div>
+
+      <div id="ian" class="col">
+        <div class="card">
+          <img src="./foodimg/pizza 5.png" alt="">
+          <a href="pizza">steak</a>
+        </div>
+      </div>
+
+    </div>
+
+    
+
+  </div>
+</div>
+
+
+
+<div class="phone">
+
+ <div class="phone1">
+  <div class="imigi">
+    <img src="./foodimg/cardii.png" alt="">
+  </div>
+ </div>
+
+  <div id="iphone">
+   <div class="app">
+    <h2>ჩამოწერე აპლიკაცია</h2>
+    <p>არასდროს ყოფილა საკვების მოძიება ასეთი მარტივი.თვალი ადევნე ფასდაკლებებს და ისიამოვნე უგემრიელესი საკვებით</p>
+    <div class="aip">
+    <button class="apple"><img id="esimg" src="./foodimg/google.png" alt=""></button>
+    <button class="apple"><img id="esimg" src="./foodimg/iphone.png" alt=""></button>
+    </div>
+   </div>
+
+  </div>
+ 
+
+</div>
+
+
+
+
+<div class="best">
+
+  <div class="row">
+    <div  class="col-md-4">
+      <div class="cardi">
+        <h2>საუკეთესო არჩევანი<span id="spa"> Crispy Sandwiches</span></h2>
+      <p>ისიამოვნე ბურგერის დიდი ზომით და უგემრიელესი არომატით</p>
+        <button>შეუკვეთე<i class="bi bi-chevron-compact-right"></i></button>
+      </div>
+    </div>
+    <div id="sand" class="col-md-8">
+      <div class="card">
+   <img src="./foodimg/sand 1.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div id="gap" class="row">
+    <div id="sand" class="col-md-8">
+      <div class="card">
+      <img id="leftradius" src="./foodimg/sand 2.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="cardi" id="cardu">
+          <h2>აღნიშნე დღესასწაულები <span id="spa">Fried Chicken</span></h2>
+            <p>მიიღე საუკეთესო შემწვარი ქათამი ლიმონის და ჩილის არომატით.</p>
+              <button>შეუკვეთე<i class="bi bi-chevron-compact-right"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div  class="col-md-4">
+      <div class="cardi" id="cardp">
+        <h2>გინდა მიირთვა hot 
+          & spicy <span id="spa"> Pizza?</span></h2>
+          <p>შეუკვეთე მეგობართან ერთად და ისიამოვნე უგემრიელესი პიცით</p>
+            <button>შეუკვეთე<i class="bi bi-chevron-compact-right"></i></button>
+      </div>
+    </div>
+    <div id="sand" class="col-md-8">
+      <div class="card">
+ <img src="./foodimg/sand 3.png" alt="">
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
+<div class="proceed">
+  <div class="proc">
+ <h1>მზად ხარ რომ შეუკვეთო?</h1> 
+  <button>შეუკვეთე<i class="bi bi-chevron-compact-right"></i></button>
+  </div>
+
+</div>
+
+
+
+
+<footer>
+<div class="foot">
+
+
+
+ <div class="row">
+<h2 id="our">ჩვენი ქალაქები</h2>
+
+  <div class="col">
+    <div  class="card">
+      <a>გორი</a>
+      <a>თბილისი</a>
+      <a>ქარელი</a>
+      <a>ხაშური</a>
+      <a>ზესტაფონი</a>
+     </div>
+  </div>
+    <div class="col">
+    <div class="card">
+      <a>ქუთაისი</a>
+      <a>სამტრედია</a>
+      <a>ბათუმი</a>
+      <a>ფოთი</a>
+      <a>ზუგდიდი</a>
+    </div>
+    </div>  
+
+    <div class="col">
+    <div class="card">
+      <a>ქობულეთი</a>
+      <a>ახალციხე</a>
+      <a>ახალქალაქი</a>
+      <a>მარნეული</a>
+      <a>რუსთავი</a>
+    </div>
+    </div>
+
+    <div class="col">
+    <div class="card">
+      <a>კასპი</a>
+      <a>გურჯაანი</a>
+      <a>მცხეთა</a>
+      <a>თელავი</a>
+      <a>გარდაბანი</a>
+    </div>
+    </div>
+
+
+    <div id="mar" class="col">
+    <div class="card">
+      <a>ყვარელი</a>
+      <a>დუშეთი</a>
+      <a>ბორჯომი</a>
+      <a>ახალციხე</a>
+      <a>ჭიათურა</a>
+    </div>
+    </div>
+  </div>
+ 
+
+
+  <div id="roo" class="row">
+
+    
+    <div id="un" class="col">
+      <div class="card">
+        <h2>კომპანია</h2>
+        <a>ჩვენს შესახებ</a>
+        <a>გუნდი</a>
+        <a>კარიერა</a>
+        <a>ბლოგი</a>
+      </div>
+    </div>
+
+    <div id="an" class="col">
+      <div class="card">
+        <h2>კონტაქტები</h2>
+        <a>Help & Support</a>
+        <a>გახდი ჩენი პარტნიორი</a>
+        <a>Ride with us</a>
+      </div>
+    </div>
+
+    <div id="on" class="col">
+      <div class="card">
+        <h2>Legal</h2>
+        <a>Terms & Conditions</a>
+        <a>Refund & Cancellation</a>
+        <a>Privacy Policy</a>
+        <a>Cookie Policy</a>
+      </div>
+    </div>
+    
+    
+
+    <div id="in" class="col">
+      <div class="card">
+        <span id="follow">FOLLOW US</span>
+        <span id="importan"><i class="bi bi-instagram"></i><i id="facebo" class="bi bi-facebook"></i><i class="bi bi-twitter"></i></span>
+        <p>მიიღე საუკეთესო შეთავაზებები ფოსტაზე</p>
+
+       
+        <form class="d-flex" >
+          <i id="bibi" class="bi bi-envelope-fill"></i>
+          <input class="form-control me-2" type="email" placeholder="Enter Your email" >
+          <button class="" type="submit">Subscribe</button>
+        </form>
+    
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div class="right">
+    <p>All right resived &copy; Your Company, 2023</p>
+    <p><span id="righ">Made with <i class="bi bi-suit-heart-fill"></i></span> by LEXO</p>
+  </div>
+
+
+
+
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"  crossorigin="anonymous"></script>
+      <script>
+        const x = document.getElementById("demo");
+        
+        function getLocation() {
+          if (navigator.geolocation) {
+            navigator.geolocation.watchPosition(showPosition);
+          } else { 
+            x.innerHTML = "Geolocation is not supported by this browser.";
+          }
+        }
+            
+        function showPosition(position) {
+            x.innerHTML="Latitude: " + position.coords.latitude + 
+            "<br>Longitude: " + position.coords.longitude;
+        }
+        </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
